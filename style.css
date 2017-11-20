@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+.asopage * {
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
+  color: #000;
+}
+
+.asopage h1 {
+  color: #000;
+  text-align:center;
+}
+
+.asopage h2 {
+  font-size: 2em;
+}
+
+.asopage h3 {
+  font-weight:lighter;
+  font-size: 1em;
+}
+
+.asopage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cvgrid {
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:15px;
+}
+
+.cvgrid-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin:0 0 -15px 0;
+}
+
+.cvitem {
+  display: table-cell;
+  vertical-align: middle;
+  background: #e4e5e6;
+  padding: 0;
+}
+
+.cvintro {padding-left: 15px;
+padding-right: 15px;}
+
+@media screen and (max-width: 680px) {
+  .asopage h2 {font-size: 1em;}
+  .asopage h3 {font-size: .8em;}
+
+@media screen and (max-width: 480px) {
+   .cvgrid-row {
+      display: block;
+      width: 100%;
+      margin:0;
+   }
+
+   .cvitem {
+    display: block;
+  	width: 100%;
+    margin: 0 0 5px 0;
+   }
+
+   .cvgrid-row #nametop {position: absolute;
+   margin-bottom: 15px;
+   margin-left: 15px;
+   font-size: 1.2em;}
+
+   .cvgrid-row #namedown {position: absolute;
+   margin-top: -55px;
+   margin-left: 15px;
+   font-size: 1.2em;
+   }
+
+   .cvgrid-row #namedownwhite {position: absolute;
+   margin-top: -55px;
+   margin-left: 15px;
+   font-size: 1.2em;
+   }
+
+   #namedownwhite .asopage h2 {color: white;}
+
+   .cvintro {padding-left: 15px;
+   padding-right: 15px;}
+
+.asopage h2 {font-size: 1em;}
+.asopage h3 {display: none;}
+
+}
