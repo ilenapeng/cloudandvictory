@@ -56,7 +56,7 @@ padding-right: 10px;}
   .asopage h2 {font-size: 1em;}
   .asopage h3 {font-size: .8em;}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
    .grid-row {
       display: block;
       width: 100%;
