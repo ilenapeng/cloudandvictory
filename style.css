@@ -86,7 +86,7 @@ padding-right: 10px;}
    font-size: 1.2em;
    }
 
-   #namedownwhite .asopage h2 {color: white;}
+   .asopage #namedownwhite h2 {color: white;}
 
    .cvintro {padding-left: 10px;
    padding-right: 10px;}
